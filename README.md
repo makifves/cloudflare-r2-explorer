@@ -1,25 +1,17 @@
 # Cloudflare R2 Explorer with HTTP Auth for Workers
 
-Cloudflare R2 Explorer with HTTP Auth for Workers
-
 ## Features
 
-- Very quick bucket/folder navigation
-- pdf, image, txt, markdown, csv, etc in-browser preview
+- Media files preview
 - Drag-and-Drop upload
 - Multiple files and folder uploads
-- Create folders
-- Rename files
-- Download files
-- Delete files
-- Right click in file for extra options
+- File and folder operations
 - Multipart upload for big files
-- Cloudflare Access validation using jwt
 
 ## Auth
 Update the `src/index.js` for Auth
 
-## Connect Buckets
+## Connect R2 Buckets
 
 Update the `wrangler.toml` with your R2 Buckets (You can setup as many Buckets as your want)
 
